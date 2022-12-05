@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family:"open sans", HelveticaNeue, "Helvetica Neue";
+}
+
+.container{
+    height:100vh;
+    background-color: #f8f8f8;
+   
+    
+   
+}
+.header {
+    background-image: url("./Old-Lady_new.jpg");
+    height: 800px;
+    width: 100%;
+    position: relative;
+  
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    margin-top: 15px;
+  
+
+}
+
+.logo-img{
+    height:250px;
+    width :250px;
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    
+}
+.nav-links {
+    display: flex;
+    margin-right: 50px;
+
+    
+   
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    margin:0 20px;
+    color: beige;
+    font-size: 20px;
+    font-weight: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.information{
+    display: flex;
+    justify-content:space-around;
+    width: 80%;
+    height:400px;
+    align-items: center;
+    margin:0 11%;
+
+    /* position: relative;
+    top:45px;
+    left:40px; */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    
+}
+.card-info{
+    height: 250px;
+    width: 260px;
+    display: flex;
+    
+}
+
+.btn-info{
+    width: 120px;
+    padding: 15px;
+    border:none;
+    color: #fff;
+    font-size:13px;
+    cursor: pointer;
+    background-color:#00b4f0;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+
+}
+
+.btn-info:hover{
+    background-color:rgb(142, 179, 219);
+    color:black;
+}
+
+.description{
+    height:220px;
+    width: 80%;
+    margin:11%;
+   
+    
+
+
+}
+
+.description h1{
+    font-family: "open sans", HelveticaNeue, "Helvetica Neue", Helvetica-Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 1;
+    font-size: 35px;
+    text-align: start;
+    line-height: 38px;
+    color: #222222;
+}
+
+.description p{
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.footer-container{
+    margin-top: 15px;
+    background-color: #333333;
+    color: #aaaaaa;
+    height: 250px;
+    width: 100%;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.footerdata{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    margin-top: 40px;
+    color: #aaaaaa;
+    letter-spacing: normal
+    
+}
+
+.footerdata{
+    font-size: 15px;
+
+}
+
+.beadealer ,.etlogo{
+    height:75px;
+    width: 130px;
+    margin-left:45px;
+    margin-top:12px;
+    
+}
+
+.footerdata p{
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "open sans", HelveticaNeue, "Helvetica Neue", Helvetica-Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 2;
+    margin-top: 15px;
+    
+}
+
+.sticky{
+    
+    background-color:#00b4f0e6;
+    color: #222222;
+    background-attachment: fixed;
+    position: fixed;
+    top:0;
+
+}
+
